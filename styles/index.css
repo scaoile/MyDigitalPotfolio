@@ -5,9 +5,7 @@
 
 main {
     display: grid;
-    gap: 3rem;
 }
-
 
 
 nav a {
@@ -62,7 +60,7 @@ nav a {
 
 
 #about {
-    padding: 1rem clamp(1rem, -7.143rem + 21.714vw, 20rem) 0;
+    padding: 4rem clamp(1rem, -7.143rem + 21.714vw, 20rem) 0;
     max-width: 3000px;
     display: grid;
     justify-content: center;
@@ -134,7 +132,7 @@ nav a {
 }
 
 .projects {
-    padding: 1rem clamp(1rem, -7.143rem + 21.714vw, 20rem) 0;
+    padding: 4rem clamp(1rem, -7.143rem + 21.714vw, 20rem) 0;
     max-width: 3000px;
     display: flex;
     flex-direction: column;
@@ -224,7 +222,7 @@ nav a {
 }
 
 .contact {
-    padding: 1rem clamp(1rem, -7.143rem + 21.714vw, 20rem);
+    padding: 4rem clamp(1rem, -7.143rem + 21.714vw, 20rem);
     max-width: 3000px;
     display: flex;
     flex-direction: column;
