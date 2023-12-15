@@ -29,8 +29,8 @@
     appearance: none;
     width: 0.6rem;
     height: 0.6rem;
-    outline: 3px solid var(--radio--color, currentColor);
-    outline-offset: 3px;
+    outline: 0.2rem solid var(--radio--color, currentColor);
+    outline-offset: 0.2rem;
     border-radius: 100px;
 }
 

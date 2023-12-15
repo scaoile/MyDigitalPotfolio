@@ -51,8 +51,12 @@ main>section>p {
 
 .card_description>div:has(img) {
     display: grid;
-
     grid-template-columns: 1fr 1fr 1fr;
+    border-right: solid 3px var(--clr--border);
+}
+
+.right {
+    order: 1;
 }
 
 .card_description img {
@@ -72,6 +76,10 @@ main>section>p {
 @media (max-width: 816px) {
     .card_description img {
         aspect-ratio: 1/1;
+    }
+
+    .card_description>div:has(p) {
+        padding: 2rem;
     }
 
     .card_description>div:has(img) {
